@@ -1,0 +1,41 @@
+@import "../utils/variables.scss";
+
+.container-footer {
+  padding: 10px 0;
+  border-top: 2px solid $color-white;
+  &__socialLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__listItem {
+    display: flex;
+    gap: 50px;
+
+    @media (max-width: 500px) {
+      gap: 25px;
+    }
+  }
+
+  .icon-social {
+    width: 28px;
+    height: 28px;
+    color: $color-white;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $color-blue-400;
+    }
+  }
+
+  .footer-phrase {
+    font-size: 20px;
+    color: $color-blue-400;
+
+    @media (max-width: 500px) {
+      font-size: 18px;
+      margin-left: 10px;
+    }
+  }
+}
