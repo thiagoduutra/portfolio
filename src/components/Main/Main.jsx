@@ -5,7 +5,7 @@ import { FiLinkedin, FiBookOpen } from "react-icons/fi";
 import "../../styles/partials/main.scss";
 import "../../styles/partials/slick.scss";
 
-import curriculo from "../../pdf/ThiagoDutra-Profile.pdf";
+import curriculo from "../../pdf/ThiagoDutra_curriculo.pdf";
 
 import Css from "../../img/css.png";
 import html5 from "../../img/html5.png";
